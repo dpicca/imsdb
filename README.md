@@ -63,7 +63,7 @@ You can overwrite or change certain attributes of a `ScriptParser`, depending on
 | Attribute           | type  | Description  |
 | ------------------- |-------| ------------ |
 | `minimum_replies`     | `int` | The minimal amount of replies under which a character is rejected. The default value is 1. This discards all characters with no replies. With the value adjusted to 2, most false-positives will be eliminated, but some minor characters along with them. |
-| `minimum_characters`  | `int` | The minimal amount of characters under which a movie is rejected. The default value is 5. More explications in the [Special scripts](#special-scripts) section.|
+| `minimum_characters`  | `int` | The minimal amount of characters under which a movie is rejected. The default value is 5. Further explanations may be found in the [Special scripts](#special-scripts) section.|
 | `character_blacklist` | `list(str)` | A list of strings. If any of the strings in the list is contained in a character name, the character will be rejected. |
 | `reply_blacklist`     | `list(str)` | A list of strings used to filter replies. If any of the strings are found in the reply (case sensitive), the reply will be rejected |
 
